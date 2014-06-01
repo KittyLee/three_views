@@ -1,0 +1,83 @@
+<html>
+
+<head>
+	 <!-- This is operating instructions for how the webpage should look - or, really, where it can go to get instructions. -->
+
+<div id="header">
+	 <h1><a href="#"><img src="{{ url_for('static' filename='RedHook-banner.png') }}" alt="Return to the homepage" id="logo" /></a></h1>
+	
+	
+</div>
+
+	 <title>Red Hook Maintenance</title> 
+	 <link rel="stylesheet" type="text/css" href="{{ url_for('static' filename='style.css') }}">
+</head>
+<!--This section will have an img.-->
+
+<body>   
+
+	<!-- Actual webpage. -->
+<div id="Page Title">FeedBack</div>
+
+<div id="navigation_bar">
+	<div class="nav_button">Profile</div>
+	<div class="nav_button">Issues</div>
+	<div class="nav_button">Solutions</div>
+	<div class="nav_button">Workers</div>
+	<div class="nav_button">Feedback</div>
+	<div id="home_button">Home</div>
+</div>
+<br></br>
+
+<div class="first_box">	
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat mollis tortor vel rutrum. Sed eget quam eu risus iaculis pulvinar. Maecenas tempus non sapien at sollicitudin. Donec eleifend non justo eu pulvinar. Nulla sodales mauris in erat ornare, at adipiscing enim laoreet. Praesent ac diam in erat convallis dictum ut eget nulla. Praesent congue hendrerit ante a ullamcorper. Curabitur consequat neque at turpis rutrum hendrerit.</p>
+
+<p>Proin at tincidunt nibh, ut porta ligula. Maecenas suscipit id lectus id fringilla. Mauris iaculis magna eu neque porta vestibulum. Quisque libero dolor, semper eu ligula nec, eleifend consequat lorem. Nunc dictum erat in odio pretium consequat. Maecenas pellentesque ante est, aliquet vehicula est commodo ut. Phasellus dui turpis, lobortis id lectus quis, vulputate tristique velit. Proin mollis hendrerit odio, sed dictum odio posuere et. Etiam odio massa, placerat hendrerit accumsan accumsan, malesuada eget massa.</p>
+<!-- ul un-order list with bullets -->
+	<ul>
+	
+		<li>list item </li>
+
+
+	</ul>
+
+	<ol>
+
+		<li>list item</li>
+
+	</ol>
+
+</div>	
+<!-- ol order list with numbers -->
+	
+<div class="second_box">
+
+	<p>Proin at tincidunt nibh, ut porta ligula. Maecenas suscipit id lectus id fringilla. Mauris iaculis magna eu neque porta vestibulum. Quisque libero dolor, semper eu ligula nec, eleifend consequat lorem. Nunc dictum erat in odio pretium consequat. Maecenas pellentesque ante est, aliquet vehicula est commodo ut. Phasellus dui turpis, lobortis id lectus quis, vulputate tristique velit. Proin mollis hendrerit odio, sed dictum odio posuere et. Etiam odio massa, placerat hendrerit accumsan accumsan, malesuada eget massa.</p>
+</div>
+
+	<div class="worker_box">
+		<h2>Workers Review</h2>
+
+
+<a href="#"><img src="http://www.fillmurray.com/g/300/300" id="worker"/></a>
+
+		<p>Proin at tincidunt nibh, ut porta ligula. Maecenas suscipit id lectus id fringilla. Mauris iaculis magna eu neque porta vestibulum. Quisque libero dolor, semper eu ligula nec, eleifend consequat lorem. Nunc dictum erat in odio pretium consequat. Maecenas pellentesque ante est, aliquet vehicula est commodo ut. Phasellus dui turpis, lobortis id lectus quis, vulputate tristique velit. Proin mollis hendrerit odio, sed dictum odio posuere et. Etiam odio massa, placerat hendrerit accumsan accumsan, malesuada eget massa.</p>
+
+		<form action="">
+<input type="checkbox" name="service" value="bad">bad service<br>
+<input type="checkbox" name="service" value="good">good service 
+</form>
+
+
+
+	</div>	
+
+
+</body> 
+
+
+
+
+
+
+</html>
